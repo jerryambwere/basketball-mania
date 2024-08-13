@@ -1,9 +1,515 @@
+[
+  {
+      "player_id": "1",
+      "name": "LeBron James",
+      "team": "Los Angeles Lakers",
+      "position": "Forward",
+      "height": "6'9\"",
+      "weight": "250 lbs",
+      "birthdate": "1984-12-30",
+      "image_url": "https://i.pinimg.com/564x/6a/ae/f7/6aaef74808fdfbe4b25c41699fba6d81.jpg"
+  },
+  {
+      "player_id": "2",
+      "name": "Kevin Durant",
+      "team": "Phoenix Suns",
+      "position": "Forward",
+      "height": "6'10\"",
+      "weight": "240 lbs",
+      "birthdate": "1988-09-29",
+      "image_url": "hhttps://i.pinimg.com/236x/23/18/93/2318930549a4f8240f01722d860e178b.jpg"
+  },
+  {
+      "player_id": "3",
+      "name": "Giannis Antetokounmpo",
+      "team": "Milwaukee Bucks",
+      "position": "Forward",
+      "height": "6'11\"",
+      "weight": "242 lbs",
+      "birthdate": "1994-12-06",
+      "image_url": "https://i.pinimg.com/564x/a0/d6/f0/a0d6f04ddb9f5a193eefb408a4aa253f.jpg"
+  },
+  {
+      "player_id": "4",
+      "name": "Stephen Curry",
+      "team": "Golden State Warriors",
+      "position": "Guard",
+      "height": "6'2\"",
+      "weight": "185 lbs",
+      "birthdate": "1988-03-14",
+      "image_url": "https://i.pinimg.com/236x/99/76/01/997601ff2e50374e90347a5aba290316.jpg"
+  },
+  {
+      "player_id": "5",
+      "name": "Luka Dončić",
+      "team": "Dallas Mavericks",
+      "position": "Guard/Forward",
+      "height": "6'7\"",
+      "weight": "230 lbs",
+      "birthdate": "1999-02-28",
+      "image_url": "https://i.pinimg.com/236x/ae/0e/22/ae0e2264f9f72841c52a7feb9a0a99a1.jpg"
+  },
+  {
+      "player_id": "6",
+      "name": "Joel Embiid",
+      "team": "Philadelphia 76ers",
+      "position": "Center",
+      "height": "7'0\"",
+      "weight": "280 lbs",
+      "birthdate": "1994-03-16",
+      "image_url": "https://i.pinimg.com/236x/69/8b/27/698b274894766b3e3c55786b53c861b9.jpg"
+  },
+  {
+      "player_id": "7",
+      "name": "Jayson Tatum",
+      "team": "Boston Celtics",
+      "position": "Forward",
+      "height": "6'8\"",
+      "weight": "210 lbs",
+      "birthdate": "1998-03-03",
+      "image_url": "https://i.pinimg.com/236x/1f/54/5b/1f545b643109ab9c005878c9de77216a.jpg"
+  },
+  {
+      "player_id": "8",
+      "name": "Anthony Davis",
+      "team": "Los Angeles Lakers",
+      "position": "Forward/Center",
+      "height": "6'10\"",
+      "weight": "253 lbs",
+      "birthdate": "1993-03-11",
+      "image_url": "https://i.pinimg.com/236x/98/ca/54/98ca541e44c5180df0209402bb45f3dd.jpg"
+  },
+  {
+      "player_id": "9",
+      "name": "Kawhi Leonard",
+      "team": "Los Angeles Clippers",
+      "position": "Forward",
+      "height": "6'7\"",
+      "weight": "225 lbs",
+      "birthdate": "1991-06-29",
+      "image_url": "https://i.pinimg.com/236x/57/01/92/57019294472eaaabb5e43f889ed72a68.jpg"
+  },
+  {
+      "player_id": "10",
+      "name": "Ja Morant",
+      "team": "Memphis Grizzlies",
+      "position": "Guard",
+      "height": "6'3\"",
+      "weight": "174 lbs",
+      "birthdate": "1999-08-10",
+      "image_url": "https://i.pinimg.com/236x/67/b8/e3/67b8e3d0e14b3666980cf6c2dfb48642.jpg"
+  },
+  {
+      "player_id": "11",
+      "name": "Zion Williamson",
+      "team": "New Orleans Pelicans",
+      "position": "Forward",
+      "height": "6'6\"",
+      "weight": "284 lbs",
+      "birthdate": "2000-07-06",
+      "image_url": "https://i.pinimg.com/236x/cf/d1/47/cfd1476b8f49d4ecf3c742d77b668b80.jpg"
+  },
+  {
+      "player_id": "12",
+      "name": "Donovan Mitchell",
+      "team": "Cleveland Cavaliers",
+      "position": "Guard",
+      "height": "6'1\"",
+      "weight": "215 lbs",
+      "birthdate": "1996-09-07",
+      "image_url": "https://i.pinimg.com/236x/17/93/0d/17930db624d0bc6f5482be6e2122aeab.jpg"
+  },
+  {
+      "player_id": "13",
+      "name": "Devin Booker",
+      "team": "Phoenix Suns",
+      "position": "Guard",
+      "height": "6'5\"",
+      "weight": "206 lbs",
+      "birthdate": "1996-10-30",
+      "image_url": "https://i.pinimg.com/474x/c3/0d/86/c30d8638fdc12d47f5bd76ce59c3ad98.jpg"
+  },
+  {
+      "player_id": "14",
+      "name": "James Harden",
+      "team": "Philadelphia 76ers",
+      "position": "Guard",
+      "height": "6'5\"",
+      "weight": "220 lbs",
+      "birthdate": "1989-08-26",
+      "image_url": "https://i.pinimg.com/236x/a4/0f/48/a40f48937a4f466d1d35f27f67ef20ab.jpg"
+  },
+  {
+      "player_id": "15",
+      "name": "Bradley Beal",
+      "team": "Washington Wizards",
+      "position": "Guard",
+      "height": "6'4\"",
+      "weight": "229 lbs",
+      "birthdate": "1993-06-28",
+      "image_url": "https://i.pinimg.com/236x/bd/e5/89/bde589b2cfee8c07a8aaadde7f4a4033.jpg"
+  },
+  {
+      "player_id": "16",
+      "name": "Darius Garland",
+      "team": "Cleveland Cavaliers",
+      "position": "Guard",
+      "height": "6'1\"",
+      "weight": "202 lbs",
+      "birthdate": "2000-01-26",
+      "image_url": "https://i.pinimg.com/736x/dc/dc/95/dcdc952882c91ae25b044c08b2788e52.jpg"
+  },
+  {
+      "player_id": "17",
+      "name": "Trae Young",
+      "team": "Atlanta Hawks",
+      "position": "Guard",
+      "height": "6'1\"",
+      "weight": "164 lbs",
+      "birthdate": "1998-09-19",
+      "image_url": "https://i.pinimg.com/736x/85/81/a1/8581a1b5d5d75c17b60c1676f5a5ea6b.jpg"
+  },
+  {
+      "player_id": "18",
+      "name": "Jamal Murray",
+      "team": "Denver Nuggets",
+      "position": "Guard",
+      "height": "6'4\"",
+      "weight": "207 lbs",
+      "birthdate": "1997-02-23",
+      "image_url": "https://i.pinimg.com/736x/1a/72/43/1a7243d2537d62d6eec68cfc0d967a1b.jpg"
+  },
+  {
+      "player_id": "19",
+      "name": "John Collins",
+      "team": "Atlanta Hawks",
+      "position": "Forward",
+      "height": "6'9\"",
+      "weight": "235 lbs",
+      "birthdate": "1997-09-23",
+      "image_url": "https://i.pinimg.com/736x/1c/87/3b/1c873b5e73962c2d2732589898d56456.jpg"
+  },
+  {
+      "player_id": "20",
+      "name": "Anthony Edwards",
+      "team": "Minnesota Timberwolves",
+      "position": "Guard",
+      "height": "6'4\"",
+      "weight": "225 lbs",
+      "birthdate": "2001-08-05",
+      "image_url": "https://i.pinimg.com/736x/6b/53/51/6b535118e892b5cdb6ed435679b64b43.jpg"
+  },
+  {
+      "player_id": "21",
+      "name": "Paul George",
+      "team": "Los Angeles Clippers",
+      "position": "Forward",
+      "height": "6'8\"",
+      "weight": "220 lbs",
+      "birthdate": "1990-05-02",
+      "image_url": "https://i.pinimg.com/736x/8d/77/a6/8d77a6b19f1f2c7c229ac5f4f3ae787a.jpg"
+  },
+  {
+      "player_id": "22",
+      "name": "Rudy Gobert",
+      "team": "Minnesota Timberwolves",
+      "position": "Center",
+      "height": "7'1\"",
+      "weight": "258 lbs",
+      "birthdate": "1992-06-26",
+      "image_url": "https://i.pinimg.com/736x/2f/12/8f/2f128f9f8c40b89b9c25e7ff8e4c4bd5.jpg"
+  },
+  {
+      "player_id": "23",
+      "name": "Deandre Ayton",
+      "team": "Phoenix Suns",
+      "position": "Center",
+      "height": "7'0\"",
+      "weight": "250 lbs",
+      "birthdate": "1998-07-23",
+      "image_url": "https://i.pinimg.com/736x/2d/8e/77/2d8e7738edb8598c9b2953fbe5c077f4.jpg"
+  },
+  {
+      "player_id": "24",
+      "name": "Mikal Bridges",
+      "team": "Brooklyn Nets",
+      "position": "Forward",
+      "height": "6'6\"",
+      "weight": "229 lbs",
+      "birthdate": "1996-08-21",
+      "image_url": "https://i.pinimg.com/736x/cb/29/44/cb2944238a4a9f2c768c77280f3a907d.jpg"
+  },
+  {
+      "player_id": "25",
+      "name": "Jaren Jackson Jr.",
+      "team": "Memphis Grizzlies",
+      "position": "Forward/Center",
+      "height": "6'9\"",
+      "weight": "242 lbs",
+      "birthdate": "1999-09-15",
+      "image_url": "https://i.pinimg.com/736x/45/5e/39/455e395c2f8775e80e00f4233c821b2e.jpg"
+  },
+  {
+      "player_id": "26",
+      "name": "Pascal Siakam",
+      "team": "Toronto Raptors",
+      "position": "Forward",
+      "height": "6'9\"",
+      "weight": "230 lbs",
+      "birthdate": "1994-04-02",
+      "image_url": "https://i.pinimg.com/736x/8e/53/0a/8e530a478f8e7e7a394c02c5eb5d0c60.jpg"
+  },
+  {
+      "player_id": "27",
+      "name": "CJ McCollum",
+      "team": "New Orleans Pelicans",
+      "position": "Guard",
+      "height": "6'3\"",
+      "weight": "214 lbs",
+      "birthdate": "1991-09-19",
+      "image_url": "https://i.pinimg.com/736x/9b/4d/9f/9b4d9fc9e027c55c0c9d9d5969d021a6.jpg"
+  },
+  {
+      "player_id": "28",
+      "name": "Dejounte Murray",
+      "team": "Atlanta Hawks",
+      "position": "Guard",
+      "height": "6'4\"",
+      "weight": "207 lbs",
+      "birthdate": "1996-09-19",
+      "image_url": "https://i.pinimg.com/736x/7b/8e/51/7b8e515f4cbe3fc0ef5c4fd3f2d3733d.jpg"
+  },
+  {
+      "player_id": "29",
+      "name": "Myles Turner",
+      "team": "Indiana Pacers",
+      "position": "Center",
+      "height": "6'10\"",
+      "weight": "250 lbs",
+      "birthdate": "1996-03-24",
+      "image_url": "https://i.pinimg.com/736x/a4/7d/51/a47d5113b66b6d8d1d68d8b05b85e041.jpg"
+  },
+  {
+      "player_id": "30",
+      "name": "Kyle Kuzma",
+      "team": "Washington Wizards",
+      "position": "Forward",
+      "height": "6'9\"",
+      "weight": "221 lbs",
+      "birthdate": "1995-07-24",
+      "image_url": "https://i.pinimg.com/736x/89/5e/98/895e98216c9b4a6b7c49fef63a9c5429.jpg"
+  },
+  {
+      "player_id": "31",
+      "name": "Lonzo Ball",
+      "team": "Chicago Bulls",
+      "position": "Guard",
+      "height": "6'6\"",
+      "weight": "231 lbs",
+      "birthdate": "1997-10-27",
+      "image_url": "https://i.pinimg.com/736x/56/c5/c0/56c5c00c9b8138e56d057f629d68cb4c.jpg"
+  },
+  {
+      "player_id": "32",
+      "name": "Gordon Hayward",
+      "team": "Charlotte Hornets",
+      "position": "Forward",
+      "height": "6'7\"",
+      "weight": "226 lbs",
+      "birthdate": "1990-03-23",
+      "image_url": "https://i.pinimg.com/736x/65/7f/d6/657fd6345ac90c5d76b4db4e91ebbd3e.jpg"
+  },
+  {
+      "player_id": "33",
+      "name": "Collin Sexton",
+      "team": "Utah Jazz",
+      "position": "Guard",
+      "height": "6'1\"",
+      "weight": "214 lbs",
+      "birthdate": "1999-01-04",
+      "image_url": "https://i.pinimg.com/736x/f5/2b/87/f52b87a6a2fcf54b4df7c3dbb3db6b80.jpg"
+  },
+  {
+      "player_id": "34",
+      "name": "Josh Giddey",
+      "team": "Oklahoma City Thunder",
+      "position": "Guard/Forward",
+      "height": "6'8\"",
+      "weight": "233 lbs",
+      "birthdate": "2002-10-10",
+      "image_url": "https://i.pinimg.com/736x/1d/3a/4b/1d3a4b1609dbec35c73a18d8f1f4a8a4.jpg"
+  },
+  {
+      "player_id": "35",
+      "name": "Jaden Ivey",
+      "team": "Detroit Pistons",
+      "position": "Guard",
+      "height": "6'4\"",
+      "weight": "200 lbs",
+      "birthdate": "2002-02-01",
+      "image_url": "https://i.pinimg.com/736x/5f/48/d7/5f48d7b3efb7b0d1e530c1d6d2a488c7.jpg"
+  },
+  {
+      "player_id": "36",
+      "name": "Keegan Murray",
+      "team": "Sacramento Kings",
+      "position": "Forward",
+      "height": "6'8\"",
+      "weight": "225 lbs",
+      "birthdate": "2000-08-19",
+      "image_url": "https://i.pinimg.com/736x/7f/5e/f4/7f5ef40f1c8407d80a51f9a2b6d635d4.jpg"
+  },
+  {
+    "player_id": "37",
+    "name": "Bam Adebayo",
+    "team": "Miami Heat",
+    "position": "Center",
+    "height": "6'9\"",
+    "weight": "255 lbs",
+    "birthdate": "1997-07-18",
+    "image_url": "https://i.pinimg.com/736x/1c/29/40/1c294009174a2769f693cf9e85d3e174.jpg"
+},
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "player_id": "38",
+    "name": "Brandon Ingram",
+    "team": "New Orleans Pelicans",
+    "position": "Forward",
+    "height": "6'7\"",
+    "weight": "190 lbs",
+    "birthdate": "1997-09-02",
+    "image_url": "https://i.pinimg.com/736x/70/5b/f4/705bf4ebc1db29dd06369a43d6f4c29e.jpg"
+},
+{
+    "player_id": "39",
+    "name": "Zion Williamson",
+    "team": "New Orleans Pelicans",
+    "position": "Forward",
+    "height": "6'6\"",
+    "weight": "284 lbs",
+    "birthdate": "2000-07-06",
+    "image_url": "https://i.pinimg.com/736x/4b/8d/8a/4b8d8a394618b5fc1a4d5b0448465b7a.jpg"
+},
+{
+    "player_id": "40",
+    "name": "Julius Randle",
+    "team": "New York Knicks",
+    "position": "Forward",
+    "height": "6'8\"",
+    "weight": "250 lbs",
+    "birthdate": "1994-11-29",
+    "image_url": "https://i.pinimg.com/736x/57/3e/73/573e7315b34e2b29dc4a43587ed99e56.jpg"
+},
+{
+    "player_id": "41",
+    "name": "Fred VanVleet",
+    "team": "Toronto Raptors",
+    "position": "Guard",
+    "height": "6'0\"",
+    "weight": "219 lbs",
+    "birthdate": "1994-02-25",
+    "image_url": "https://i.pinimg.com/736x/61/07/2b/61072b66a7b91807f3d4c54f8c40d2de.jpg"
+},
+{
+    "player_id": "42",
+    "name": "Tyrese Haliburton",
+    "team": "Indiana Pacers",
+    "position": "Guard",
+    "height": "6'5\"",
+    "weight": "232 lbs",
+    "birthdate": "2000-02-29",
+    "image_url": "https://i.pinimg.com/736x/f2/fb/47/f2fb478b08a15b17c68c36f6d74a427e.jpg"
+},
+{
+    "player_id": "43",
+    "name": "Malcolm Brogdon",
+    "team": "Boston Celtics",
+    "position": "Guard",
+    "height": "6'4\"",
+    "weight": "229 lbs",
+    "birthdate": "1992-12-11",
+    "image_url": "https://i.pinimg.com/736x/ab/7e/3d/ab7e3d2ed9d1f7fa58a5869d0b5749c1.jpg"
+},
+{
+    "player_id": "44",
+    "name": "Jaden Ivey",
+    "team": "Detroit Pistons",
+    "position": "Guard",
+    "height": "6'4\"",
+    "weight": "200 lbs",
+    "birthdate": "2002-02-01",
+    "image_url": "https://i.pinimg.com/736x/5f/48/d7/5f48d7b3efb7b0d1e530c1d6d2a488c7.jpg"
+},
+{
+    "player_id": "45",
+    "name": "Keegan Murray",
+    "team": "Sacramento Kings",
+    "position": "Forward",
+    "height": "6'8\"",
+    "weight": "225 lbs",
+    "birthdate": "2000-08-19",
+    "image_url": "https://i.pinimg.com/736x/7f/5e/f4/7f5ef40f1c8407d80a51f9a2b6d635d4.jpg"
+},
+{
+    "player_id": "46",
+    "name": "RJ Barrett",
+    "team": "New York Knicks",
+    "position": "Forward",
+    "height": "6'6\"",
+    "weight": "214 lbs",
+    "birthdate": "2000-06-14",
+    "image_url": "https://i.pinimg.com/736x/70/ce/9d/70ce9d1f2c5d5fcdbb972b4fa51f2332.jpg"
+},
+{
+    "player_id": "47",
+    "name": "LaMelo Ball",
+    "team": "Charlotte Hornets",
+    "position": "Guard",
+    "height": "6'7\"",
+    "weight": "180 lbs",
+    "birthdate": "2001-08-22",
+    "image_url": "https://i.pinimg.com/736x/d8/c3/54/d8c354b91a4e2074d5155fd051c08ff6.jpg"
+},
+{
+    "player_id": "48",
+    "name": "Darius Garland",
+    "team": "Cleveland Cavaliers",
+    "position": "Guard",
+    "height": "6'1\"",
+    "weight": "192 lbs",
+    "birthdate": "2000-01-26",
+    "image_url": "https://i.pinimg.com/736x/5c/24/51/5c24513a72cfbb3945e245a0fa62f6b6.jpg"
+},
+{
+    "player_id": "49",
+    "name": "Scottie Barnes",
+    "team": "Toronto Raptors",
+    "position": "Forward",
+    "height": "6'9\"",
+    "weight": "230 lbs",
+    "birthdate": "2001-08-01",
+    "image_url": "https://i.pinimg.com/736x/65/7b/34/657b34b9f2d8c7c571c1cf8eaa12a0f5.jpg"
+},
+{
+    "player_id": "50",
+    "name": "Tyrese Maxey",
+    "team": "Philadelphia 76ers",
+    "position": "Guard",
+    "height": "6'2\"",
+    "weight": "200 lbs",
+    "birthdate": "2000-11-04",
+    "image_url": "https://i.pinimg.com/736x/ff/7c/c1/ff7cc17e6cce1de873f7e18f18c8a097.jpg"
+},
+{
+    "player_id": "51",
+    "name": "Jalen Green",
+    "team": "Houston Rockets",
+    "position": "Guard",
+    "height": "6'4\"",
+    "weight": "186 lbs",
+    "birthdate": "2002-10-09",
+    "image_url": "https://i.pinimg.com/736x/1d/29/2a/1d292a0a5b7a5b06c8dcf08a57e50f02.jpg"
 }
+
+
+]
+
